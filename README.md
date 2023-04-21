@@ -1,6 +1,6 @@
 ![Histórico de Commits](img/snakegame.gif)
 
-# README# 👋 Bem-vindo ao meu perfil do GitHub!
+# 👋 Bem-vindo ao meu perfil do GitHub!
 
 Olá! Eu sou Matheus Cardoso, um FullStack Engineer apaixonado por tecnologia especializado em arquitetura de software, cibersegurança e ciência de dados e Graduado em Engenharia Elétrica pelo IFMG. 💻
 
