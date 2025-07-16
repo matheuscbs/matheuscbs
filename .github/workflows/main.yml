@@ -1,0 +1,46 @@
+# GitHub Action para gerar a animação da cobrinha de contribuições
+
+name: Generate snake animation
+
+on:
+  # Roda a cada 6 horas para manter a animação atualizada
+  schedule:
+    - cron: "0 */6 * * *"
+  
+  # Permite que você rode a action manualmente pela aba "Actions"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    # Permissão essencial para que a action possa escrever (fazer push) no repositório
+    permissions:
+      contents: write
+
+    steps:
+      # Passo 1: Faz o checkout do seu repositório para que a action possa acessá-lo
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      # Passo 2: Roda a action que gera os arquivos SVG da animação
+      - name: Generate snake animation
+        uses: Platane/snk@v3
+        with:
+          # Seu nome de usuário do GitHub
+          github_user_name: matheuscbs
+          
+          # Arquivos de saída. As imagens serão salvas na pasta 'dist/'
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          # Token de autenticação do GitHub, fornecido automaticamente
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # Passo 3: Faz o commit e push dos arquivos gerados para o seu repositório
+      - name: Commit and push
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "docs: update snake animation"
+          file_pattern: dist/*.svg # Garante que apenas os arquivos da cobrinha sejam commitados
