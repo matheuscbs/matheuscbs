@@ -14,7 +14,7 @@
 ### 💡 Sobre Mim
 
 - 🎓 Pós-graduado em **Arquitetura de Software, Ciência de Dados e Cibersegurança**.
-- 💼 Atualmente **Arquiteto de Soluções e Engenheiro Full Stack** na **CreditHub**, liderando projetos de IA e extração de dados em tempo real.
+- 💼 Atualmente **Engenheiro Full Stack** na **CreditHub**, deselvovendo projetos de IA e extração de dados em tempo real.
 - 🚀 Especialista em otimizar performance, garantir escalabilidade com **Kubernetes** e **Docker**, e automatizar pipelines de **ETL e DevOps**.
 - ☁️ Ampla experiência em **Cloud Infrastructure** (AWS/GCP) e design de sistemas **Serverless**.
 - 🧠 Desenvolvendo soluções de **IA Generativa** para análise de crédito e outros workflows de dados intensivos.
