@@ -41,7 +41,7 @@
     <img src="https://skillicons.dev/icons?i=nodejs,nestjs,nextjs,react,django,flask" title="Frameworks: Node.js, NestJS, Next.js, React, Django, Flask"/>
     <br>
     <!-- DevOps, Cloud & Database -->
-    <img src="https://skillicons.dev/icons?i=aws,gcp,serverless,kubernetes,docker,postgres,mongo,jest,git" title="Cloud & DevOps: AWS, GCP, Serverless, Kubernetes, Docker, PostgreSQL, MongoDB, Jest, Git"/>
+    <img src="https://skillicons.dev/icons?i=aws,gcp,kubernetes,docker,postgres,mongo,jest,git" title="Cloud & DevOps: AWS, GCP, Kubernetes, Docker, PostgreSQL, MongoDB, Jest, Git"/>
   </a>
 </p>
 
