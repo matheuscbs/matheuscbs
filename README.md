@@ -13,7 +13,7 @@
 
 ### 💡 Sobre Mim
 
-- 🎓 Pós-graduado em **Arquitetura de Software, Ciência de Dados e Cibersegurança**.
+- 🎓 Pós-graduado em **Arquitetura de Software, Ciência de Dados e Cibersegurança** e **Engenharia e Arquitetura de Dados**.
 - 💼 Atualmente **Engenheiro Full Stack** na **CreditHub**, deselvovendo projetos de IA e extração de dados em tempo real.
 - 🚀 Especialista em otimizar performance, garantir escalabilidade com **Kubernetes** e **Docker**, e automatizar pipelines de **ETL e DevOps**.
 - ☁️ Ampla experiência em **Cloud Infrastructure** (AWS/GCP) e design de sistemas **Serverless**.
@@ -41,7 +41,7 @@
     <img src="https://skillicons.dev/icons?i=nodejs,nestjs,nextjs,react,django,flask" title="Frameworks: Node.js, NestJS, Next.js, React, Django, Flask"/>
     <br>
     <!-- DevOps, Cloud & Database -->
-    <img src="https://skillicons.dev/icons?i=aws,gcp,kubernetes,docker,postgres,mongo,jest,git" title="Cloud & DevOps: AWS, GCP, Kubernetes, Docker, PostgreSQL, MongoDB, Jest, Git"/>
+    <img src="https://skillicons.dev/icons?i=aws,gcp,serverless,kubernetes,docker,postgres,mongo,jest,git" title="Cloud & DevOps: AWS, GCP, Serverless, Kubernetes, Docker, PostgreSQL, MongoDB, Jest, Git"/>
   </a>
 </p>
 
