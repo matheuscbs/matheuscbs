@@ -5,19 +5,20 @@
 </p>
 
 <p align="center">
-  Arquiteto de Soluções e Engenheiro de Dados apaixonado por construir sistemas escaláveis, resilientes e de alto impacto. 🚀<br> 
-  Com foco em <strong>IA Generativa</strong>, <strong>Arquiteturas Distribuídas</strong> e automação em nuvem (<strong>AWS/GCP</strong>), minha missão é transformar desafios complexos em soluções tecnológicas que geram resultados mensuráveis, como a reestruturação de plataformas que resultou em uma <strong>redução de 80% nos tempos de resposta</strong>.
+  Arquiteto de Soluções e Engenheiro de Dados apaixonado por criar sistemas <strong>escaláveis</strong>, <strong>resilientes</strong> e <strong>data-driven</strong>. 🚀<br> 
+  Especializado em <strong>IA Generativa</strong>, <strong>Arquiteturas Distribuídas</strong> e <strong>Automação em Nuvem</strong> (<strong>AWS / GCP</strong>), minha missão é transformar desafios complexos em soluções que entregam <strong>resultados mensuráveis</strong> como otimizações que reduziram <strong>80% do tempo de resposta</strong> em plataformas de alto tráfego.
 </p>
 
 ---
 
 ### 💡 Sobre Mim
 
-- 🎓 Pós-graduado em **Arquitetura de Software, Ciência de Dados e Cibersegurança** e **Engenharia e Arquitetura de Dados**.
-- 💼 Atualmente **Engenheiro Full Stack** na **CreditHub**, deselvovendo projetos de IA e extração de dados em tempo real.
-- 🚀 Especialista em otimizar performance, garantir escalabilidade com **Kubernetes** e **Docker**, e automatizar pipelines de **ETL e DevOps**.
-- ☁️ Ampla experiência em **Cloud Infrastructure** (AWS/GCP) e design de sistemas **Serverless**.
-- 🧠 Desenvolvendo soluções de **IA Generativa** para análise de crédito e outros workflows de dados intensivos.
+- 🎓 Pós-graduado em **Arquitetura de Software, Ciência de Dados e Cibersegurança** e **Engenharia & Arquitetura de Dados**.
+- 💼 **Engenheiro Full Stack** na **CreditHub**, liderando projetos de **IA**, **automação** e **extração de dados em tempo real**.
+- 🚀 Especialista em **Kubernetes**, **Docker**, pipelines de **ETL**, **MLOps** e **DevOps**.
+- ☁️ Experiência sólida em **Cloud Infrastructure** (AWS/GCP) e **arquiteturas Serverless**.
+- 🧠 Aplicando **IA Generativa** e **Machine Learning** (TensorFlow, PyTorch, Prophet), detecção de padrões e previsão de séries temporais.
+
 
 <br>
 
@@ -35,13 +36,16 @@
 <p align="center">
   <a href="https://skillicons.dev">
     <!-- Linguagens -->
-    <img src="https://skillicons.dev/icons?i=python,js,ts,html,css" title="Linguagens: Python, JavaScript, TypeScript, HTML, CSS" />
-    <br>
-    <!-- Frameworks (Backend & Frontend) -->
-    <img src="https://skillicons.dev/icons?i=nodejs,nestjs,nextjs,react,django,flask" title="Frameworks: Node.js, NestJS, Next.js, React, Django, Flask"/>
-    <br>
-    <!-- DevOps, Cloud & Database -->
-    <img src="https://skillicons.dev/icons?i=aws,gcp,kubernetes,docker,postgres,mongo,jest,git" title="Cloud & DevOps: AWS, GCP, Kubernetes, Docker, PostgreSQL, MongoDB, Jest, Git"/>
+    <img src="https://skillicons.dev/icons?i=python,js,ts,html,css,php" title="Python, JavaScript, TypeScript, HTML, CSS, PHP" /><br>
+    <!-- Frameworks -->
+    <img src="https://skillicons.dev/icons?i=nodejs,nestjs,nextjs,react,django,flask,fastapi" title="Node.js, NestJS, Next.js, React, Django, Flask, FastAPI" /><br>
+    <!-- Cloud, DevOps e Banco -->
+    <img src="https://skillicons.dev/icons?i=aws,gcp,kubernetes,docker,postgres,mysql,mongo,git,jest" title="AWS, GCP, Kubernetes, Docker, PostgreSQL, MySQL, MongoDB, Git, Jest" /><br>
+    <!-- Data & AI -->
+    <img src="https://skillicons.dev/icons?i=tensorflow,pytorch" title="TensorFlow, PyTorch" />
+    <img src="https://custom-icon-badges.demolab.com/badge/-Prophet-blue?style=for-the-badge&logo=chart-line&logoColor=white" title="Facebook Prophet" />
+    <img src="https://custom-icon-badges.demolab.com/badge/-Serverless-orange?style=for-the-badge&logo=serverless&logoColor=white" title="Serverless Framework" />
+    <img src="https://custom-icon-badges.demolab.com/badge/-MLOps-green?style=for-the-badge&logo=mlflow&logoColor=white" title="MLOps" />
   </a>
 </p>
 
