@@ -1,4 +1,4 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=250§ion=header&text=Matheus%20Cardoso&fontSize=70&fontColor=fff&animation=fadeIn&desc=Tech%20Architect%20%7C%20Cloud%20&%20AI%20Builder&descAlignY=80&descAlign=60" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=250&section=header&text=Matheus%20Cardoso&fontSize=70&fontColor=fff&animation=fadeIn&desc=Tech%20Architect%20%7C%20Cloud%20&%20AI%20Builder&descAlignY=80&descAlign=60" />
 
 <p align="center">
   <em>"A tecnologia que move a agulha."</em>
@@ -18,7 +18,6 @@
 - 🚀 Especialista em **Kubernetes**, **Docker**, pipelines de **ETL**, **MLOps** e **DevOps**.
 - ☁️ Experiência sólida em **Cloud Infrastructure** (AWS/GCP) e **arquiteturas Serverless**.
 - 🧠 Aplicando **IA Generativa** e **Machine Learning** (TensorFlow, PyTorch, Prophet), detecção de padrões e previsão de séries temporais.
-
 
 <br>
 
@@ -54,15 +53,16 @@
 ### ⭐ Estatísticas do GitHub
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=matheuscbs&show_icons=true&theme=omni&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=matheuscbs&layout=compact&langs_count=8&theme=omni"/>
+  <!-- Removido include_all_commits para evitar erro -->
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=matheuscbs&show_icons=true&theme=omni&count_private=true&cache_seconds=7200&v=1" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=matheuscbs&layout=compact&langs_count=8&theme=omni&cache_seconds=7200&v=1" />
 </div>
 
 <br>
 
 <div align="center">
   <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
-    <img alt="Matheus Cardoso's Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=matheuscbs&bg_color=0d1117&color=bd93f9&line=bd93f9&point=ff79c6&area=true&hide_border=true" />
+    <img alt="Matheus Cardoso's Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=matheuscbs&bg_color=0d1117&color=bd93f9&line=bd93f9&point=ff79c6&area=true&hide_border=true&v=1" />
   </a>
 </div>
 
@@ -76,4 +76,4 @@
   </picture>
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=150§ion=footer" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=150&section=footer" />
