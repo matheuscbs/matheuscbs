@@ -35,7 +35,7 @@
 <p align="center">
   <a href="https://skillicons.dev">
     <!-- Linguagens -->
-    <img src="https://skillicons.dev/icons?i=python,js,ts,html,css,php" title="Python, JavaScript, TypeScript, HTML, CSS, PHP" /><br>
+    <img src="https://skillicons.dev/icons?i=python,js,ts,html,css,php,c" title="Python, JavaScript, TypeScript, HTML, CSS, PHP, C" /><br>
     <!-- Frameworks -->
     <img src="https://skillicons.dev/icons?i=nodejs,nestjs,nextjs,react,django,flask,fastapi" title="Node.js, NestJS, Next.js, React, Django, Flask, FastAPI" /><br>
     <!-- Cloud, DevOps e Banco -->
@@ -53,9 +53,8 @@
 ### ⭐ Estatísticas do GitHub
 
 <div align="center">
-  <!-- Removido include_all_commits para evitar erro -->
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=matheuscbs&show_icons=true&theme=omni&count_private=true&cache_seconds=7200&v=1" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=matheuscbs&layout=compact&langs_count=8&theme=omni&cache_seconds=7200&v=1" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=matheuscbs&show_icons=true&theme=omni&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=matheuscbs&layout=compact&langs_count=8&theme=omni"/>
 </div>
 
 <br>
