@@ -1,66 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 130" width="900" height="130" role="img" aria-labelledby="ftTitle ftDesc">
-  <title id="ftTitle">Rodap&#233; em pixel art cyberpunk</title>
-  <desc id="ftDesc">Continua&#231;&#227;o visual do banner: horizonte em blocos, paleta Dracula e micro-anima&#231;&#245;es discretas.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 148" width="900" height="148" role="img" aria-labelledby="ftTitle ftDesc">
+  <title id="ftTitle">Fim de sess&#227;o no quarto tech</title>
+  <desc id="ftDesc">Porta com fresta de luz, cabos descendo, horizonte pixel e mensagem de encerramento da narrativa.</desc>
   <defs>
     <linearGradient id="ftSky" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#282a36"/>
-      <stop offset="45%" stop-color="#1a1f3a"/>
+      <stop offset="40%" stop-color="#1a1f3a"/>
       <stop offset="100%" stop-color="#0d1117"/>
     </linearGradient>
+    <style type="text/css"><![CDATA[
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    ]]></style>
   </defs>
-  <!-- Continuidade com o hero: mesma linha de acento -->
   <rect x="0" y="0" width="900" height="3" fill="#ff79c6" opacity="0.35"/>
-  <rect x="0" y="3" width="900" height="127" fill="url(#ftSky)"/>
+  <rect x="0" y="3" width="900" height="145" fill="url(#ftSky)"/>
 
-  <!-- Horizonte em pixel art (degraus 8px) -->
+  <!-- Porta pixel + luz na fresta -->
+  <g transform="translate(720,24)">
+    <rect width="120" height="112" fill="#161b22" stroke="#44475a" stroke-width="2"/>
+    <rect x="54" y="0" width="8" height="112" fill="#0d1117" opacity="0.85"/>
+    <rect x="56" y="0" width="4" height="112" fill="#f1fa8c" opacity="0">
+      <animate attributeName="opacity" values="0;0.35;0.08;0.35;0" dur="6s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="100" cy="56" r="3" fill="#6272a4"/>
+  </g>
+
+  <!-- Cabos pendurados (eco do trilho da cobrinha) -->
+  <path d="M120 8 Q100 60 90 140" fill="none" stroke="#6272a4" stroke-width="2" opacity="0.6"/>
+  <path d="M160 8 Q150 70 170 140" fill="none" stroke="#bd93f9" stroke-width="2" opacity="0.45"/>
+  <rect x="86" y="100" width="6" height="6" fill="#50fa7b"><animate attributeName="opacity" values="0.3;1;0.3" dur="1.5s" repeatCount="indefinite"/></rect>
+
+  <!-- Horizonte pixel -->
   <g fill="#44475a">
-    <rect x="0" y="56" width="32" height="8"/><rect x="32" y="48" width="32" height="16"/><rect x="64" y="40" width="32" height="24"/>
-    <rect x="96" y="48" width="32" height="16"/><rect x="128" y="52" width="32" height="12"/><rect x="160" y="44" width="32" height="20"/>
-    <rect x="192" y="36" width="32" height="28"/><rect x="224" y="40" width="32" height="24"/><rect x="256" y="48" width="32" height="16"/>
-    <rect x="288" y="52" width="32" height="12"/><rect x="320" y="44" width="32" height="20"/><rect x="352" y="40" width="32" height="24"/>
-    <rect x="384" y="48" width="32" height="16"/><rect x="416" y="56" width="32" height="8"/><rect x="448" y="48" width="32" height="16"/>
-    <rect x="480" y="40" width="32" height="24"/><rect x="512" y="36" width="32" height="28"/><rect x="544" y="44" width="32" height="20"/>
-    <rect x="576" y="48" width="32" height="16"/><rect x="608" y="52" width="32" height="12"/><rect x="640" y="44" width="32" height="20"/>
-    <rect x="672" y="40" width="32" height="24"/><rect x="704" y="48" width="32" height="16"/><rect x="736" y="52" width="32" height="12"/>
-    <rect x="768" y="44" width="32" height="20"/><rect x="800" y="48" width="32" height="16"/><rect x="832" y="56" width="32" height="8"/>
-    <rect x="864" y="52" width="36" height="12"/>
+    <rect x="0" y="72" width="32" height="8"/><rect x="32" y="64" width="32" height="16"/><rect x="64" y="56" width="32" height="24"/>
+    <rect x="96" y="64" width="32" height="16"/><rect x="128" y="68" width="32" height="12"/><rect x="160" y="60" width="32" height="20"/>
+    <rect x="192" y="52" width="32" height="28"/><rect x="224" y="56" width="32" height="24"/><rect x="256" y="64" width="32" height="16"/>
+    <rect x="288" y="68" width="32" height="12"/><rect x="320" y="60" width="32" height="20"/><rect x="352" y="56" width="32" height="24"/>
+    <rect x="384" y="64" width="32" height="16"/><rect x="416" y="72" width="32" height="8"/><rect x="448" y="64" width="32" height="16"/>
+    <rect x="480" y="56" width="32" height="24"/><rect x="512" y="52" width="32" height="28"/><rect x="544" y="60" width="32" height="20"/>
+    <rect x="576" y="64" width="32" height="16"/><rect x="608" y="68" width="32" height="12"/><rect x="640" y="60" width="32" height="20"/>
+    <rect x="672" y="56" width="32" height="24"/><rect x="704" y="64" width="32" height="16"/><rect x="736" y="68" width="32" height="12"/>
+    <rect x="768" y="60" width="32" height="20"/><rect x="800" y="64" width="32" height="16"/><rect x="832" y="72" width="32" height="8"/>
+    <rect x="864" y="68" width="36" height="12"/>
   </g>
-  <g fill="#282a36">
-    <rect x="0" y="64" width="900" height="66"/>
-  </g>
-  <!-- "solo" pixel com variacao -->
+  <g fill="#282a36"><rect x="0" y="80" width="900" height="68"/></g>
   <g fill="#1a1f3a">
-    <rect x="0" y="72" width="48" height="58"/><rect x="48" y="68" width="56" height="62"/><rect x="104" y="76" width="40" height="54"/>
-    <rect x="144" y="70" width="72" height="60"/><rect x="216" y="74" width="64" height="56"/><rect x="280" y="68" width="88" height="62"/>
-    <rect x="368" y="72" width="52" height="58"/><rect x="420" y="70" width="96" height="60"/><rect x="516" y="76" width="44" height="54"/>
-    <rect x="560" y="68" width="80" height="62"/><rect x="640" y="72" width="60" height="58"/><rect x="700" y="70" width="100" height="60"/>
-    <rect x="800" y="74" width="100" height="56"/>
+    <rect x="0" y="88" width="120" height="60"/><rect x="120" y="84" width="200" height="64"/><rect x="320" y="90" width="580" height="58"/>
   </g>
 
-  <!-- Janelas / gritos neon no horizonte (eco do skyline do hero) -->
   <g>
-    <rect x="56" y="44" width="4" height="4" fill="#bd93f9"><animate attributeName="opacity" values="0.4;1;0.4" dur="1.8s" repeatCount="indefinite"/></rect>
-    <rect x="200" y="40" width="4" height="4" fill="#ff79c6"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.2s" repeatCount="indefinite" begin="0.3s"/></rect>
-    <rect x="336" y="48" width="4" height="4" fill="#8be9fd"><animate attributeName="opacity" values="0.45;1;0.45" dur="1.6s" repeatCount="indefinite" begin="0.6s"/></rect>
-    <rect x="520" y="42" width="4" height="4" fill="#50fa7b"><animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" begin="0.2s"/></rect>
-    <rect x="688" y="46" width="4" height="4" fill="#ff79c6"><animate attributeName="opacity" values="0.5;1;0.5" dur="1.4s" repeatCount="indefinite" begin="0.8s"/></rect>
-    <rect x="824" y="52" width="4" height="4" fill="#bd93f9"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.3s" repeatCount="indefinite" begin="0.4s"/></rect>
+    <rect x="80" y="58" width="4" height="4" fill="#bd93f9"><animate attributeName="opacity" values="0.4;1;0.4" dur="1.8s" repeatCount="indefinite"/></rect>
+    <rect x="280" y="54" width="4" height="4" fill="#ff79c6"><animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" begin="0.3s"/></rect>
+    <rect x="520" y="60" width="4" height="4" fill="#8be9fd"><animate attributeName="opacity" values="0.45;1;0.45" dur="1.5s" repeatCount="indefinite" begin="0.6s"/></rect>
   </g>
 
-  <!-- Estrelas minimas (mesma linguagem do hero) -->
   <g fill="#f1fa8c">
-    <rect x="120" y="18" width="2" height="2"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.5s" repeatCount="indefinite"/></rect>
-    <rect x="420" y="12" width="2" height="2"><animate attributeName="opacity" values="0.25;1;0.25" dur="3.2s" repeatCount="indefinite" begin="0.5s"/></rect>
-    <rect x="780" y="22" width="2" height="2"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.8s" repeatCount="indefinite" begin="1s"/></rect>
+    <rect x="200" y="20" width="2" height="2"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.6s" repeatCount="indefinite"/></rect>
+    <rect x="480" y="14" width="2" height="2"><animate attributeName="opacity" values="0.25;1;0.25" dur="3s" repeatCount="indefinite" begin="0.4s"/></rect>
   </g>
 
-  <!-- Linha de scan sutil -->
-  <rect x="0" y="95" width="900" height="1" fill="#bd93f9" opacity="0.12">
-    <animate attributeName="opacity" values="0.06;0.2;0.06" dur="4s" repeatCount="indefinite"/>
-  </rect>
-
-  <text x="450" y="112" text-anchor="middle" fill="#6272a4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10">
-    // obrigado por visitar o perfil
+  <text x="380" y="128" text-anchor="middle" fill="#6272a4" class="mono" font-size="11">
+    // fim de sess&#227;o &#8212; obrigado por visitar o perfil
+  </text>
+  <text x="380" y="142" text-anchor="middle" fill="#bd93f9" class="mono" font-size="9" opacity="0.85">
+    matheuscbs :: power down
   </text>
 </svg>

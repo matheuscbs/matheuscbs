@@ -1,43 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 88" width="820" height="88" role="img" aria-labelledby="statsIntroTitle statsIntroDesc">
-  <title id="statsIntroTitle">Estat&#237;sticas do perfil</title>
-  <desc id="statsIntroDesc">Mensagem introdut&#243;ria animada antes dos cards de commits, streak e linguagens.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 124" width="820" height="124" role="img" aria-labelledby="statsIntroTitle statsIntroDesc">
+  <title id="statsIntroTitle">Rack de telemetria</title>
+  <desc id="statsIntroDesc">Painel estilo servidor com LEDs, oscilosc&#243;pio pixel e texto sobre commits e linguagens.</desc>
   <defs>
-    <linearGradient id="statsBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#161b22"/>
+    <linearGradient id="rackBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1f3a"/>
       <stop offset="100%" stop-color="#0d1117"/>
     </linearGradient>
-    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#bd93f9">
-        <animate attributeName="stop-color" values="#bd93f9;#ff79c6;#8be9fd;#bd93f9" dur="6s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="100%" stop-color="#8be9fd">
-        <animate attributeName="stop-color" values="#8be9fd;#bd93f9;#ff79c6;#8be9fd" dur="6s" repeatCount="indefinite"/>
-      </stop>
+    <linearGradient id="rackGlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#bd93f9"><animate attributeName="stop-color" values="#bd93f9;#ff79c6;#8be9fd;#bd93f9" dur="5s" repeatCount="indefinite"/></stop>
+      <stop offset="100%" stop-color="#8be9fd"><animate attributeName="stop-color" values="#8be9fd;#bd93f9;#ff79c6;#8be9fd" dur="5s" repeatCount="indefinite"/></stop>
     </linearGradient>
+    <style type="text/css"><![CDATA[
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    ]]></style>
   </defs>
-  <rect x="1" y="1" width="818" height="86" rx="10" fill="url(#statsBg)" stroke="#30363d" stroke-width="1"/>
-  <rect x="24" y="20" width="772" height="3" rx="1" fill="url(#accentGrad)" opacity="0.9">
-    <animate attributeName="opacity" values="0.55;1;0.55" dur="3s" repeatCount="indefinite"/>
-  </rect>
-  <text x="410" y="52" text-anchor="middle" fill="#e6edf3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="500">
-    Commits, ritmo e linguagens &#8212; um retrato vivo do que construo no GitHub.
+
+  <rect x="2" y="2" width="816" height="120" rx="6" fill="url(#rackBg)" stroke="#30363d" stroke-width="2"/>
+  <!-- Suportes do rack -->
+  <rect x="16" y="8" width="6" height="108" fill="#44475a" rx="1"/>
+  <rect x="798" y="8" width="6" height="108" fill="#44475a" rx="1"/>
+  <rect x="28" y="10" width="764" height="4" fill="url(#rackGlow)" opacity="0.85"/>
+
+  <!-- M&#243;dulos LED -->
+  <g transform="translate(40,22)">
+    <rect width="56" height="14" fill="#282a36" stroke="#6272a4" stroke-width="1"/>
+    <rect x="6" y="5" width="8" height="6" fill="#50fa7b"><animate attributeName="opacity" values="0.3;1;0.3" dur="0.7s" repeatCount="indefinite"/></rect>
+    <rect x="20" y="5" width="8" height="6" fill="#ff79c6"><animate attributeName="opacity" values="0.3;1;0.3" dur="0.7s" repeatCount="indefinite" begin="0.15s"/></rect>
+    <rect x="34" y="5" width="8" height="6" fill="#8be9fd"><animate attributeName="opacity" values="0.3;1;0.3" dur="0.7s" repeatCount="indefinite" begin="0.3s"/></rect>
+  </g>
+  <g transform="translate(724,22)">
+    <rect width="56" height="14" fill="#282a36" stroke="#6272a4" stroke-width="1"/>
+    <rect x="10" y="5" width="10" height="6" fill="#bd93f9"><animate attributeName="opacity" values="0.4;1;0.4" dur="1.1s" repeatCount="indefinite"/></rect>
+    <rect x="28" y="5" width="10" height="6" fill="#f1fa8c"><animate attributeName="opacity" values="0.4;1;0.4" dur="1.1s" repeatCount="indefinite" begin="0.4s"/></rect>
+  </g>
+
+  <!-- Oscilosc&#243;pio pixel -->
+  <rect x="40" y="44" width="200" height="56" fill="#0d1117" stroke="#44475a" stroke-width="1"/>
+  <rect x="48" y="52" width="184" height="40" fill="#161b22"/>
+  <polyline fill="none" stroke="#50fa7b" stroke-width="2" points="52,72 68,60 84,78 100,58 116,76 132,64 148,74 164,60 180,72 196,66 212,70 228,62">
+    <animate attributeName="opacity" values="0.65;1;0.65" dur="2s" repeatCount="indefinite"/>
+  </polyline>
+  <text x="48" y="50" class="mono" font-size="7" fill="#6272a4">TELEMETRY.CH0</text>
+
+  <!-- Texto principal -->
+  <text x="420" y="58" text-anchor="middle" fill="#e6edf3" class="mono" font-size="13" font-weight="600">
+    Commits, ritmo e linguagens &#8212; retrato vivo do GitHub.
   </text>
-  <text x="410" y="70" text-anchor="middle" fill="#6272a4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10">
-    M&#233;tricas sincronizadas com o ecossistema que mais uso no dia a dia.
+  <text x="420" y="78" text-anchor="middle" fill="#6272a4" class="mono" font-size="10">
+    M&#233;tricas alinhadas ao ecossistema que mais uso no dia a dia.
   </text>
-  <g transform="translate(360, 76)">
-    <circle r="3" fill="#ff79c6" cx="0" cy="0">
-      <animate attributeName="opacity" values="0.35;1;0.35" dur="1.2s" repeatCount="indefinite"/>
-    </circle>
-    <circle r="3" fill="#bd93f9" cx="14" cy="0">
-      <animate attributeName="opacity" values="0.35;1;0.35" dur="1.2s" repeatCount="indefinite" begin="0.25s"/>
-    </circle>
-    <circle r="3" fill="#8be9fd" cx="28" cy="0">
-      <animate attributeName="opacity" values="0.35;1;0.35" dur="1.2s" repeatCount="indefinite" begin="0.5s"/>
-    </circle>
-    <circle r="3" fill="#50fa7b" cx="42" cy="0">
-      <animate attributeName="opacity" values="0.35;1;0.35" dur="1.2s" repeatCount="indefinite" begin="0.75s"/>
-    </circle>
+  <text x="420" y="96" text-anchor="middle" fill="#8be9fd" class="mono" font-size="9" opacity="0.9">
+    &gt; sync cards :: dist/*.svg
+  </text>
+
+  <!-- Indicadores inferiores -->
+  <g transform="translate(340, 108)">
+    <circle r="3" fill="#ff79c6" cx="0" cy="0"><animate attributeName="opacity" values="0.35;1;0.35" dur="1.1s" repeatCount="indefinite"/></circle>
+    <circle r="3" fill="#bd93f9" cx="14" cy="0"><animate attributeName="opacity" values="0.35;1;0.35" dur="1.1s" repeatCount="indefinite" begin="0.2s"/></circle>
+    <circle r="3" fill="#8be9fd" cx="28" cy="0"><animate attributeName="opacity" values="0.35;1;0.35" dur="1.1s" repeatCount="indefinite" begin="0.4s"/></circle>
+    <circle r="3" fill="#50fa7b" cx="42" cy="0"><animate attributeName="opacity" values="0.35;1;0.35" dur="1.1s" repeatCount="indefinite" begin="0.6s"/></circle>
   </g>
 </svg>

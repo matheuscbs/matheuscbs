@@ -1,4 +1,4 @@
-<img width="100%" src="./assets/hero.svg" alt="Matheus Cardoso — Tech Architect — banner cyberpunk em pixel art" />
+<img width="100%" src="./assets/hero.svg" alt="Quarto tech em pixel art: Matheus Cardoso, Tech Architect" />
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&duration=4000&pause=800&color=BD93F9&center=true&vCenter=true&width=600&lines=Tech+Architect;Cloud+%26+AI+Builder;Reduzi+80%25+nos+tempos+de+resposta;Construindo+impacto+inteligente" alt="Typing SVG" />
@@ -20,6 +20,10 @@
   Com foco em <strong>IA Generativa</strong>, <strong>Arquiteturas Distribuídas</strong> e automação em nuvem (<strong>AWS/GCP</strong>), minha missão é transformar desafios complexos em soluções tecnológicas que geram resultados mensuráveis, como a reestruturação de plataformas que resultou em uma <strong>redução de 80% nos tempos de resposta</strong>.
 </p>
 
+<p align="center">
+  <img width="100%" src="./assets/about-scene.svg" alt="Cena pixel: estação de arquitetura com monitores ARCH, DATA e CLOUD" />
+</p>
+
 ---
 
 ### Sobre mim
@@ -33,6 +37,10 @@
 ---
 
 ### Stack
+
+<p align="center">
+  <img width="100%" src="./assets/stack-scene.svg" alt="Cena pixel: bancada com racks LANG, API e INFRA" />
+</p>
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -49,7 +57,7 @@
 ### Estatísticas
 
 <p align="center">
-  <img width="820" src="./assets/stats-section.svg" alt="Introdução às estatísticas: commits, ritmo e linguagens no GitHub" />
+  <img width="820" src="./assets/stats-section.svg" alt="Painel pixel: rack de telemetria antes dos cards de estatísticas" />
 </p>
 
 <div align="center">
@@ -71,6 +79,10 @@
 
 ### Trophies
 
+<p align="center">
+  <img width="100%" src="./assets/trophies-scene.svg" alt="Cena pixel: vitrine arcade ACHIEVEMENT_LOG antes dos troféus" />
+</p>
+
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=matheuscbs&theme=tokyonight&no-frame=true&row=1&column=7" alt="GitHub trophies" />
 </div>
@@ -78,6 +90,10 @@
 ---
 
 ### Cobrinha de contribuições
+
+<p align="center">
+  <img width="100%" src="./assets/snake-frame.svg" alt="Trilho pixel DATA_TRUNK antes do gráfico da cobrinha" />
+</p>
 
 <div align="center">
   <picture>
@@ -87,4 +103,4 @@
   </picture>
 </div>
 
-<img width="100%" src="./assets/footer.svg" alt="Rodapé em pixel art cyberpunk, alinhado ao banner do perfil" />
+<img width="100%" src="./assets/footer.svg" alt="Rodapé pixel: fim de sessão no quarto tech" />
