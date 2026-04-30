@@ -48,7 +48,9 @@
 
 ### Estatísticas
 
-Os cards abaixo são gerados pelo workflow [Update README stats](.github/workflows/update-stats.yml) com um **PAT** (`STATS_PAT`) para incluir **repositórios privados** e **todos os commits** onde a API permitir. Adicione o secret no repositório e rode o workflow uma vez.
+<p align="center">
+  <img width="820" src="./assets/stats-section.svg" alt="Introdução às estatísticas: commits, ritmo e linguagens no GitHub" />
+</p>
 
 <div align="center">
   <img height="180em" src="./dist/stats.svg" alt="GitHub stats" />

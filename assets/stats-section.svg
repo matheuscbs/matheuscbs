@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 88" width="820" height="88" role="img" aria-labelledby="statsIntroTitle statsIntroDesc">
+  <title id="statsIntroTitle">Estat&#237;sticas do perfil</title>
+  <desc id="statsIntroDesc">Mensagem introdut&#243;ria animada antes dos cards de commits, streak e linguagens.</desc>
+  <defs>
+    <linearGradient id="statsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#bd93f9">
+        <animate attributeName="stop-color" values="#bd93f9;#ff79c6;#8be9fd;#bd93f9" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#8be9fd">
+        <animate attributeName="stop-color" values="#8be9fd;#bd93f9;#ff79c6;#8be9fd" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="818" height="86" rx="10" fill="url(#statsBg)" stroke="#30363d" stroke-width="1"/>
+  <rect x="24" y="20" width="772" height="3" rx="1" fill="url(#accentGrad)" opacity="0.9">
+    <animate attributeName="opacity" values="0.55;1;0.55" dur="3s" repeatCount="indefinite"/>
+  </rect>
+  <text x="410" y="52" text-anchor="middle" fill="#e6edf3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="500">
+    Commits, ritmo e linguagens &#8212; um retrato vivo do que construo no GitHub.
+  </text>
+  <text x="410" y="70" text-anchor="middle" fill="#6272a4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10">
+    M&#233;tricas sincronizadas com o ecossistema que mais uso no dia a dia.
+  </text>
+  <g transform="translate(360, 76)">
+    <circle r="3" fill="#ff79c6" cx="0" cy="0">
+      <animate attributeName="opacity" values="0.35;1;0.35" dur="1.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3" fill="#bd93f9" cx="14" cy="0">
+      <animate attributeName="opacity" values="0.35;1;0.35" dur="1.2s" repeatCount="indefinite" begin="0.25s"/>
+    </circle>
+    <circle r="3" fill="#8be9fd" cx="28" cy="0">
+      <animate attributeName="opacity" values="0.35;1;0.35" dur="1.2s" repeatCount="indefinite" begin="0.5s"/>
+    </circle>
+    <circle r="3" fill="#50fa7b" cx="42" cy="0">
+      <animate attributeName="opacity" values="0.35;1;0.35" dur="1.2s" repeatCount="indefinite" begin="0.75s"/>
+    </circle>
+  </g>
+</svg>
