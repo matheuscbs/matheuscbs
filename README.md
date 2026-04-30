@@ -50,8 +50,11 @@
 ### ⭐ Estatísticas do GitHub
 
 <div align="center">
+  <!-- Adicionado count_private=true e include_all_commits=true para capturar seus +11k de contribuições -->
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=matheuscbs&show_icons=true&theme=omni&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=matheuscbs&layout=compact&langs_count=8&theme=omni"/>
+  
+  <!-- Adicionado hide para remover linguagens secundárias e focar no seu core de Python/TypeScript -->
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=matheuscbs&layout=compact&langs_count=8&theme=omni&hide=MATLAB,Shell,CSS"/>
 </div>
 
 <br>
