@@ -87,4 +87,4 @@
   </picture>
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=150&section=footer" alt="Footer" />
+<img width="100%" src="./assets/footer.svg" alt="Rodapé em pixel art cyberpunk, alinhado ao banner do perfil" />
