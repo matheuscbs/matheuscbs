@@ -1,49 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 104" width="900" height="104" role="img" aria-labelledby="stTitle stDesc">
-  <title id="stTitle">Bancada de stack</title>
-  <desc id="stDesc">Racks pixel com etiquetas LANG, API e INFRA, LEDs e prateleira de caixas de ferramentas.</desc>
-  <defs>
-    <linearGradient id="stBg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#161b22"/>
-      <stop offset="100%" stop-color="#0d1117"/>
-    </linearGradient>
-  </defs>
-  <rect width="900" height="104" fill="url(#stBg)"/>
-  <rect x="0" y="0" width="900" height="3" fill="#8be9fd" opacity="0.25"/>
-  <rect x="0" y="78" width="900" height="26" fill="#282a36"/>
-  <rect x="0" y="78" width="900" height="2" fill="#44475a"/>
-
-  <!-- Prateleira superior -->
-  <rect x="40" y="18" width="820" height="8" fill="#44475a"/>
-  <g fill="#1a1f3a" stroke="#6272a4" stroke-width="1">
-    <rect x="60" y="28" width="28" height="22"/><rect x="100" y="28" width="28" height="22"/><rect x="140" y="28" width="28" height="22"/>
-    <rect x="720" y="28" width="28" height="22"/><rect x="760" y="28" width="28" height="22"/><rect x="800" y="28" width="28" height="22"/>
+  <title id="stTitle">Inventory - Stack</title>
+  <desc id="stDesc">Invent&#225;rio em pixel art com slots equipados para linguagens, frameworks e infraestrutura.</desc>
+  <rect width="900" height="104" fill="#0d1117"/>
+  <rect x="0" y="0" width="900" height="3" fill="#8be9fd" opacity="0.3"/>
+  <rect x="24" y="14" width="852" height="74" fill="#161b22" stroke="#44475a" stroke-width="2"/>
+  <text x="40" y="34" font-family="ui-monospace,monospace" font-size="10" fill="#8be9fd">INVENTORY :: BUILD_LOADOUT</text>
+  <g transform="translate(38,44)">
+    <rect width="250" height="34" fill="#1a1f3a" stroke="#6272a4" stroke-width="1"/>
+    <text x="10" y="21" font-family="ui-monospace,monospace" font-size="9" fill="#ff79c6">SLOT A</text>
+    <text x="78" y="21" font-family="ui-monospace,monospace" font-size="9" fill="#50fa7b">LANGUAGES</text>
   </g>
-
-  <!-- Racks -->
-  <g transform="translate(260,38)">
-    <rect width="100" height="38" fill="#282a36" stroke="#bd93f9" stroke-width="1"/>
-    <text x="50" y="22" text-anchor="middle" fill="#ff79c6" font-family="ui-monospace,monospace" font-size="10">LANG</text>
-    <rect x="12" y="28" width="8" height="4" fill="#50fa7b"><animate attributeName="opacity" values="0.4;1;0.4" dur="0.9s" repeatCount="indefinite"/></rect>
-    <rect x="46" y="28" width="8" height="4" fill="#8be9fd"><animate attributeName="opacity" values="0.4;1;0.4" dur="0.9s" repeatCount="indefinite" begin="0.2s"/></rect>
-    <rect x="80" y="28" width="8" height="4" fill="#ff79c6"><animate attributeName="opacity" values="0.4;1;0.4" dur="0.9s" repeatCount="indefinite" begin="0.4s"/></rect>
+  <g transform="translate(324,44)">
+    <rect width="250" height="34" fill="#1a1f3a" stroke="#6272a4" stroke-width="1"/>
+    <text x="10" y="21" font-family="ui-monospace,monospace" font-size="9" fill="#ff79c6">SLOT B</text>
+    <text x="78" y="21" font-family="ui-monospace,monospace" font-size="9" fill="#8be9fd">FRAMEWORKS</text>
   </g>
-  <g transform="translate(400,38)">
-    <rect width="100" height="38" fill="#282a36" stroke="#8be9fd" stroke-width="1"/>
-    <text x="50" y="22" text-anchor="middle" fill="#8be9fd" font-family="ui-monospace,monospace" font-size="10">API</text>
-    <rect x="20" y="28" width="60" height="4" fill="#bd93f9" opacity="0.6">
-      <animate attributeName="opacity" values="0.35;0.9;0.35" dur="1.8s" repeatCount="indefinite"/>
-    </rect>
+  <g transform="translate(610,44)">
+    <rect width="250" height="34" fill="#1a1f3a" stroke="#6272a4" stroke-width="1"/>
+    <text x="10" y="21" font-family="ui-monospace,monospace" font-size="9" fill="#ff79c6">SLOT C</text>
+    <text x="78" y="21" font-family="ui-monospace,monospace" font-size="9" fill="#f1fa8c">INFRA</text>
   </g>
-  <g transform="translate(540,38)">
-    <rect width="100" height="38" fill="#282a36" stroke="#50fa7b" stroke-width="1"/>
-    <text x="50" y="22" text-anchor="middle" fill="#50fa7b" font-family="ui-monospace,monospace" font-size="9">INFRA</text>
-    <rect x="10" y="28" width="80" height="4" fill="#f1fa8c" opacity="0.5">
-      <animate attributeName="opacity" values="0.2;0.85;0.2" dur="2.4s" repeatCount="indefinite"/>
-    </rect>
-  </g>
-
-  <text x="450" y="98" text-anchor="middle" fill="#6272a4" font-family="ui-monospace,monospace" font-size="10">
-    // pr&#243;xima parada: as ferramentas reais (skillicons abaixo)
-  </text>
 </svg>
