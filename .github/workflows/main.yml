@@ -34,4 +34,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "docs: update snake animation"
-          file_pattern: dist/*.svg # Garante que apenas os arquivos da cobrinha sejam commitados
+          file_pattern: dist/github-contribution-grid-snake.svg dist/github-contribution-grid-snake-dark.svg

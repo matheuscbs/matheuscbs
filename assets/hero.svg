@@ -1,0 +1,200 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" width="900" height="260" role="img" aria-labelledby="heroTitle heroDesc">
+  <title id="heroTitle">Matheus Cardoso — Tech Architect</title>
+  <desc id="heroDesc">Banner cyberpunk em pixel art: skyline neon, avatar com capuz, monitor com terminal animado, caneca e teclado RGB.</desc>
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="55%" stop-color="#1a1f3a"/>
+      <stop offset="100%" stop-color="#282a36"/>
+    </linearGradient>
+    <filter id="eyeGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.2" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style type="text/css"><![CDATA[
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      @media (prefers-reduced-motion: reduce) {
+        .motion-star, .motion-win, .motion-steam, .motion-led, .motion-blink, .motion-type, .motion-arm, .motion-cursor, .motion-ant { animation: none !important; }
+      }
+    ]]></style>
+  </defs>
+
+  <!-- L1 Sky -->
+  <rect width="900" height="260" fill="url(#skyGrad)"/>
+
+  <!-- Stars -->
+  <g class="motion-star" fill="#f1fa8c">
+    <rect x="40" y="22" width="2" height="2"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.4s" repeatCount="indefinite"/></rect>
+    <rect x="88" y="14" width="2" height="2"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.1s" repeatCount="indefinite" begin="0.4s"/></rect>
+    <rect x="132" y="38" width="2" height="2"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.8s" repeatCount="indefinite" begin="1.1s"/></rect>
+    <rect x="210" y="18" width="2" height="2"><animate attributeName="opacity" values="0.25;1;0.25" dur="3.6s" repeatCount="indefinite"/></rect>
+    <rect x="268" y="44" width="2" height="2"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.2s" repeatCount="indefinite" begin="0.7s"/></rect>
+    <rect x="318" y="12" width="2" height="2"><animate attributeName="opacity" values="0.3;1;0.3" dur="4s" repeatCount="indefinite" begin="1.5s"/></rect>
+    <rect x="402" y="28" width="2" height="2"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.9s" repeatCount="indefinite"/></rect>
+    <rect x="468" y="52" width="2" height="2"><animate attributeName="opacity" values="0.25;1;0.25" dur="3.3s" repeatCount="indefinite" begin="0.2s"/></rect>
+    <rect x="520" y="20" width="2" height="2"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.6s" repeatCount="indefinite" begin="0.9s"/></rect>
+    <rect x="592" y="36" width="2" height="2"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.5s" repeatCount="indefinite"/></rect>
+    <rect x="648" y="14" width="2" height="2"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.3s" repeatCount="indefinite" begin="1.2s"/></rect>
+    <rect x="702" y="48" width="2" height="2"><animate attributeName="opacity" values="0.25;1;0.25" dur="3.8s" repeatCount="indefinite" begin="0.5s"/></rect>
+    <rect x="758" y="26" width="2" height="2"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.7s" repeatCount="indefinite"/></rect>
+    <rect x="812" y="18" width="2" height="2"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.2s" repeatCount="indefinite" begin="0.8s"/></rect>
+    <rect x="862" y="42" width="2" height="2"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.5s" repeatCount="indefinite" begin="1.4s"/></rect>
+    <rect x="180" y="58" width="2" height="2"><animate attributeName="opacity" values="0.25;1;0.25" dur="3.4s" repeatCount="indefinite"/></rect>
+    <rect x="360" y="62" width="2" height="2"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.1s" repeatCount="indefinite" begin="0.3s"/></rect>
+    <rect x="540" y="58" width="2" height="2"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.7s" repeatCount="indefinite" begin="1s"/></rect>
+    <rect x="780" y="60" width="2" height="2"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.8s" repeatCount="indefinite" begin="0.6s"/></rect>
+  </g>
+
+  <!-- Moon pixel -->
+  <g transform="translate(818,14)">
+    <rect x="0" y="2" width="6" height="6" fill="#f1fa8c" opacity="0.95"/>
+    <rect x="6" y="0" width="4" height="8" fill="#f1fa8c" opacity="0.95"/>
+    <rect x="2" y="6" width="4" height="2" fill="#1a1f3a"/>
+  </g>
+
+  <!-- L2-L3 Skyline (right) -->
+  <g transform="translate(480,0)">
+    <rect x="0" y="120" width="44" height="90" fill="#1a1f3a"/>
+    <rect x="52" y="95" width="56" height="115" fill="#282a36"/>
+    <rect x="118" y="110" width="40" height="100" fill="#1a1f3a"/>
+    <rect x="168" y="75" width="72" height="135" fill="#44475a"/>
+    <rect x="248" y="100" width="48" height="110" fill="#282a36"/>
+    <rect x="304" y="85" width="60" height="125" fill="#44475a"/>
+    <rect x="372" y="115" width="48" height="95" fill="#1a1f3a"/>
+    <!-- windows distant -->
+    <g class="motion-win">
+      <rect x="8" y="132" width="4" height="4" fill="#bd93f9"><animate attributeName="fill" values="#bd93f9;#ff79c6;#8be9fd;#bd93f9" dur="2.4s" repeatCount="indefinite"/></rect>
+      <rect x="20" y="148" width="4" height="4" fill="#ff79c6"><animate attributeName="opacity" values="0.4;1;0.4" dur="1.3s" repeatCount="indefinite" begin="0.2s"/></rect>
+      <rect x="64" y="108" width="4" height="4" fill="#8be9fd"><animate attributeName="opacity" values="0.5;1;0.5" dur="1.7s" repeatCount="indefinite"/></rect>
+      <rect x="88" y="124" width="4" height="4" fill="#ff79c6"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.1s" repeatCount="indefinite" begin="0.5s"/></rect>
+      <rect x="184" y="92" width="4" height="4" fill="#50fa7b"><animate attributeName="opacity" values="0.4;1;0.4" dur="1.5s" repeatCount="indefinite" begin="0.1s"/></rect>
+      <rect x="220" y="108" width="4" height="4" fill="#bd93f9"><animate attributeName="fill" values="#bd93f9;#8be9fd;#ff79c6;#bd93f9" dur="2.8s" repeatCount="indefinite" begin="0.7s"/></rect>
+      <rect x="264" y="118" width="4" height="4" fill="#8be9fd"><animate attributeName="opacity" values="0.35;1;0.35" dur="1.9s" repeatCount="indefinite"/></rect>
+      <rect x="320" y="98" width="4" height="4" fill="#ff79c6"><animate attributeName="opacity" values="0.45;1;0.45" dur="2.2s" repeatCount="indefinite" begin="0.4s"/></rect>
+      <rect x="388" y="132" width="4" height="4" fill="#bd93f9"><animate attributeName="opacity" values="0.4;1;0.4" dur="1.6s" repeatCount="indefinite" begin="0.9s"/></rect>
+    </g>
+    <!-- antenna warning -->
+    <rect x="204" y="68" width="4" height="8" fill="#44475a"/>
+    <rect x="203" y="66" width="6" height="4" fill="#ff5555" class="motion-ant">
+      <animate attributeName="opacity" values="1;0.2;1" dur="1.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- L4 Desk surface -->
+  <rect x="0" y="198" width="900" height="62" fill="#282a36"/>
+  <rect x="0" y="198" width="900" height="3" fill="#44475a" opacity="0.6"/>
+
+  <!-- Name + tag (left) -->
+  <text x="32" y="58" class="mono" font-size="26" font-weight="700" fill="#ff79c6">Matheus Cardoso</text>
+  <text x="34" y="60" class="mono" font-size="26" font-weight="700" fill="#8be9fd" opacity="0.35">Matheus Cardoso</text>
+  <text x="32" y="86" class="mono" font-size="11" fill="#6272a4">Tech Architect � Cloud &amp; AI Builder</text>
+  <text x="32" y="104" class="mono" font-size="9" fill="#50fa7b" opacity="0.85">// intelligent impact at scale</text>
+
+  <!-- L5 Avatar hoodie ~ position (72, 118) -->
+  <g id="avatar" transform="translate(72,118)">
+    <!-- legs / chair hint -->
+    <rect x="8" y="44" width="24" height="14" fill="#1a1f3a" rx="0"/>
+    <rect x="4" y="38" width="32" height="10" fill="#44475a"/>
+    <!-- torso -->
+    <rect x="6" y="18" width="28" height="26" fill="#282a36"/>
+    <rect x="8" y="20" width="4" height="20" fill="#1a1f3a" opacity="0.5"/>
+    <!-- arms frame A -->
+    <g class="motion-arm">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,2; 0,0" dur="0.45s" repeatCount="indefinite" additive="sum"/>
+      <rect x="0" y="22" width="8" height="6" fill="#282a36"/>
+      <rect x="32" y="22" width="8" height="6" fill="#282a36"/>
+      <rect x="2" y="26" width="6" height="4" fill="#bd93f9"/>
+      <rect x="32" y="26" width="6" height="4" fill="#bd93f9"/>
+    </g>
+    <!-- hood + face shadow -->
+    <polygon points="4,18 20,2 36,18 36,22 4,22" fill="#1a1f3a"/>
+    <rect x="10" y="10" width="20" height="14" fill="#0d1117"/>
+    <!-- eyes -->
+    <g filter="url(#eyeGlow)" class="motion-blink">
+      <rect x="13" y="15" width="4" height="2" fill="#8be9fd"/>
+      <rect x="23" y="15" width="4" height="2" fill="#8be9fd"/>
+      <animate attributeName="opacity" values="1;1;1;0;1" keyTimes="0;0.85;0.9;0.92;1" dur="4s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <!-- Monitor -->
+  <g transform="translate(268,88)">
+    <rect x="0" y="0" width="196" height="118" rx="4" fill="#282a36" stroke="#44475a" stroke-width="2"/>
+    <rect x="10" y="10" width="176" height="88" fill="#0d1117"/>
+    <!-- stand -->
+    <rect x="86" y="108" width="24" height="10" fill="#44475a"/>
+    <rect x="78" y="116" width="40" height="4" fill="#1a1f3a"/>
+    <!-- terminal -->
+    <text x="18" y="28" class="mono" font-size="8" fill="#50fa7b">&gt; matheuscbs@architect:~$</text>
+    <text x="18" y="42" class="mono" font-size="7" fill="#6272a4"># hybrid manifesto + deploy</text>
+    <g class="mono motion-type" font-size="9" fill="#f1fa8c">
+      <text x="18" y="58" opacity="0">
+        initializing matheuscbs.ai...
+        <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.02;0.23;0.25;1" dur="12s" repeatCount="indefinite"/>
+      </text>
+      <text x="18" y="58" opacity="0">
+        deploy production --force
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.25;0.27;0.48;0.5;1" dur="12s" repeatCount="indefinite"/>
+      </text>
+      <text x="18" y="58" opacity="0">
+        reducing 80% latency...
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.5;0.52;0.73;0.75;1" dur="12s" repeatCount="indefinite"/>
+      </text>
+      <text x="18" y="58" opacity="0">
+        whoami -> tech architect
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.75;0.77;0.99;1" dur="12s" repeatCount="indefinite"/>
+      </text>
+    </g>
+    <text x="18" y="74" class="mono motion-cursor" font-size="9" fill="#8be9fd">&#9612;<animate attributeName="opacity" values="1;0;1" dur="0.6s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- Mug + steam -->
+  <g transform="translate(478,152)">
+    <rect x="4" y="8" width="18" height="20" fill="#bd93f9"/>
+    <rect x="22" y="12" width="6" height="12" fill="none" stroke="#bd93f9" stroke-width="3"/>
+    <rect x="8" y="4" width="10" height="4" fill="#ff79c6" opacity="0.7"/>
+    <g class="motion-steam" fill="none" stroke="#8be9fd" stroke-width="1.5" opacity="0.45">
+      <path d="M10,4 Q8,-4 12,-10">
+        <animateTransform attributeName="transform" type="translate" values="0,0; 0,-14" dur="2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.5;0" dur="2s" repeatCount="indefinite"/>
+      </path>
+      <path d="M16,4 Q14,-6 18,-12">
+        <animateTransform attributeName="transform" type="translate" values="0,0; 0,-14" dur="2s" repeatCount="indefinite" begin="0.6s"/>
+        <animate attributeName="opacity" values="0;0.5;0" dur="2s" repeatCount="indefinite" begin="0.6s"/>
+      </path>
+      <path d="M22,4 Q20,-5 24,-11">
+        <animateTransform attributeName="transform" type="translate" values="0,0; 0,-14" dur="2s" repeatCount="indefinite" begin="1.2s"/>
+        <animate attributeName="opacity" values="0;0.5;0" dur="2s" repeatCount="indefinite" begin="1.2s"/>
+      </path>
+    </g>
+  </g>
+
+  <!-- Keyboard RGB -->
+  <g transform="translate(298,188)">
+    <rect x="0" y="0" width="96" height="16" rx="2" fill="#1a1f3a" stroke="#44475a" stroke-width="1"/>
+    <g fill="#44475a">
+      <rect x="6" y="5" width="5" height="5"/><rect x="13" y="5" width="5" height="5"/><rect x="20" y="5" width="5" height="5"/>
+      <rect x="27" y="5" width="5" height="5"/><rect x="34" y="5" width="5" height="5"/><rect x="41" y="5" width="5" height="5"/>
+      <rect x="48" y="5" width="5" height="5"/><rect x="55" y="5" width="5" height="5"/><rect x="62" y="5" width="5" height="5"/>
+      <rect x="69" y="5" width="5" height="5"/><rect x="76" y="5" width="5" height="5"/><rect x="83" y="5" width="5" height="5"/>
+    </g>
+    <g class="motion-led">
+      <rect x="22" y="10" width="6" height="3" fill="#ff79c6">
+        <animate attributeName="fill" values="#ff79c6;#bd93f9;#8be9fd;#50fa7b;#ff79c6" dur="3s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="44" y="10" width="6" height="3" fill="#bd93f9">
+        <animate attributeName="fill" values="#bd93f9;#8be9fd;#50fa7b;#ff79c6;#bd93f9" dur="3s" repeatCount="indefinite" begin="0.4s"/>
+      </rect>
+      <rect x="66" y="10" width="6" height="3" fill="#8be9fd">
+        <animate attributeName="fill" values="#8be9fd;#50fa7b;#ff79c6;#bd93f9;#8be9fd" dur="3s" repeatCount="indefinite" begin="0.8s"/>
+      </rect>
+    </g>
+  </g>
+
+  <!-- Bottom accent line -->
+  <rect x="0" y="257" width="900" height="3" fill="#ff79c6" opacity="0.35"/>
+</svg>
