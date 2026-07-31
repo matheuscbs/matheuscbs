@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Matheus Cardoso's GitHub Stats, Rank: B+</title>
-        <desc id="descId">Total Stars Earned: 2, Total Commits  : 18074, Total PRs: 1523, Total Issues: 25, Contributed to (last year): 29</desc>
+        <desc id="descId">Total Stars Earned: 2, Total Commits  : 18086, Total PRs: 1530, Total Issues: 25, Contributed to (last year): 29</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 99.0824292348624;
+        stroke-dashoffset: 99.08242797352588;
       }
     }
   
